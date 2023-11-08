@@ -7,10 +7,11 @@
 
 <h2>API 명세서</h2>
 <p align="center">
-  <img src="https://github.com/KangMinBeom/LV1_Spring/assets/109460223/3c0a0311-1f09-498a-b313-fd4ae7b2aa70">
+  <img src="https://github.com/KangMinBeom/LV1_Spring/assets/109460223/683114ba-5dbd-40dc-bee0-90ed5a091f52">
 </p>
 
 <h2>ERD</h2>
 <p align="center">
   <img src="https://github.com/KangMinBeom/LV1_Spring/assets/109460223/253e4a76-7f7a-40ab-8db3-69be5c12b9b8">
 </p>
+https://github.com/KangMinBeom/LV1_Spring/assets/109460223/683114ba-5dbd-40dc-bee0-90ed5a091f52
