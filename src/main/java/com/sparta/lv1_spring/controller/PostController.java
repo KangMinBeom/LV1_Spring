@@ -2,18 +2,9 @@ package com.sparta.lv1_spring.controller;
 
 import com.sparta.lv1_spring.dto.PostRequestDto;
 import com.sparta.lv1_spring.dto.PostResponseDto;
-import com.sparta.lv1_spring.entity.Post;
 import com.sparta.lv1_spring.service.PostService;
-import org.springframework.cglib.core.Local;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.support.GeneratedKeyHolder;
-import org.springframework.jdbc.support.KeyHolder;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import java.sql.*;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
