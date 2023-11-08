@@ -7,7 +7,7 @@
 
 <h2>API 명세서</h2>
 <p align="center">
-  <img src="https://github.com/KangMinBeom/LV1_Spring/assets/109460223/ee41feb7-2b3d-4e32-820f-1287c93e3b0f">
+  <img src="https://github.com/KangMinBeom/LV1_Spring/assets/109460223/3c0a0311-1f09-498a-b313-fd4ae7b2aa70">
 </p>
 
 <h2>ERD</h2>
