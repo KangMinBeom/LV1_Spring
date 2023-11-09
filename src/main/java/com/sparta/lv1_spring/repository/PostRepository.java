@@ -34,7 +34,7 @@ public class PostRepository {
                     preparedStatement.setString(2, post.getUsername());
                     preparedStatement.setString(3, post.getPassword());
                     preparedStatement.setString(4, post.getContents());
-                    preparedStatement.setTimestamp(5, Timestamp.valueOf(post.getCreatedat()));
+                    preparedStatement.setTimestamp(5, Timestamp.valueOf(post.getCreatedAt()));
                     return preparedStatement;
                 },
                 keyHolder);
@@ -73,7 +73,7 @@ public class PostRepository {
                 post.setPassword(resultSet.getString("password"));
                 post.setContents(resultSet.getString("contents"));
                 post.setTitle(resultSet.getString("title"));
-                post.setCreatedat(resultSet.getTimestamp("created_at").toLocalDateTime());
+                post.setCreatedAt(resultSet.getTimestamp("created_at").toLocalDateTime());
                 return post;
             } else {
                 return null;

@@ -11,21 +11,21 @@ public class PostResponseDto {
     private String title;
     private String username;
     private String contents;
-    private LocalDateTime createdat;
+    private LocalDateTime createdAt;
 
     public PostResponseDto(Post post) {
         this.id = post.getId();
         this.title = post.getTitle();
         this.username = post.getUsername();
         this.contents = post.getContents();
-        this.createdat = post.getCreatedat();
+        this.createdAt = post.getCreatedAt();
     }
 
-    public PostResponseDto(Long id, String title, String username, String contents, LocalDateTime createdat) {
+    public PostResponseDto(Long id, String title, String username, String contents, LocalDateTime createdAt) {
         this.id = id;
         this.title = title;
         this.username = username;
         this.contents = contents;
-        this.createdat = createdat;
+        this.createdAt = createdAt;
     }
 }

@@ -16,14 +16,14 @@ public class Post {
     private String username;
     private String password;
     private String contents;
-    private LocalDateTime createdat;
+    private LocalDateTime createdAt;
 
     public Post(PostRequestDto requestDto) {
         this.title = requestDto.getTitle();
         this.username = requestDto.getUsername();
         this.password = requestDto.getPassword();
         this.contents = requestDto.getContents();
-        this.createdat = LocalDateTime.now();
+        this.createdAt = LocalDateTime.now();
     }
     public void update(PostRequestDto requestDto) {
         this.title = requestDto.getTitle();
